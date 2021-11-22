@@ -5,7 +5,6 @@ import About from './About';
 
 export default function Home() {
   return (
-    <Layout>
     <div className="container">
       <Head>
         <title>Create Next App</title>
@@ -212,6 +211,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-    </Layout>
   )
 }
