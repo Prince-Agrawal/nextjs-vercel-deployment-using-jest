@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && cypress run",
-    "now-build": "npm i && npm i -g xvfb && next build && cypress run",
+    "now-build": "npm i && next build && cypress run",
     "start": "next start",
     "cypress": "cypress open",
     "cypress:headless": "cypress run"
