@@ -14,7 +14,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to hhhhhhhhhhhhhhhh <a href="https://nextjs.org">Next.js!</a>
+          Welcome to<a href="https://nextjs.org">Next.js!</a>
         </h1>
         
 
