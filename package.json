@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm install && next build && cypress run",
+    "build": "next build && cypress run",
+    "now-build": "next build",
     "start": "next start",
     "cypress": "cypress open",
     "cypress:headless": "cypress run"
