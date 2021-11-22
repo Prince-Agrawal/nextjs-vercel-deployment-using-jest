@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && cypress run",
+    "buildC": "next build && cypress run",
     "start": "next start",
     "cypress": "cypress open",
     "cypress:headless": "cypress run"
