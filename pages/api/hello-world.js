@@ -1,3 +1,7 @@
 export default (req, res)=>{
-    res.send("Hello World")
+    res.json({
+      data: {
+        name: "Prince Agrawal"
+      }
+    });
   }
